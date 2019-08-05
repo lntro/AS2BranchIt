@@ -1,0 +1,18 @@
+public class HeronsFormula {
+    public static void main(String args[]) {
+        //Instance Variables
+        int a = 5;
+        int b = a, c = a;
+        double s = 0;
+        double hForm = 0; 
+        String name = "Heron's formula";
+        
+        //Calculations
+        s = (double)(a + b + c)/2;
+        hForm = Math.sqrt(s * (s - a) * (s - b) * (s - c));
+        
+        //Output
+        System.out.printf("Given a triangle with sides %d, %d and %d Heron's Formula gives us an area of %.2f", a, b, c, hForm);
+
+    }//end main method
+}//end HeronsFormula class
