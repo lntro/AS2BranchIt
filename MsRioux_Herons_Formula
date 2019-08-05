@@ -1,5 +1,7 @@
-public class HeronsFormula {
-    public static void main(String args[]) {
+public class HeronsFormula
+{
+    public static void main(String args[])
+    {
         //Instance Variables
         int a = 5;
         int b = a, c = a;
