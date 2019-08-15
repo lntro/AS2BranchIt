@@ -1,4 +1,4 @@
-# 3 Branch It
+# 2 Branch It
 ## A simple repo to practice branching.
 
 Branch my Master.  Add your file and then submit a Pull Request.
